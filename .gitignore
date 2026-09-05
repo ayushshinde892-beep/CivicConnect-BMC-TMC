@@ -1,0 +1,26 @@
+# OS files
+.DS_Store
+*.DS_Store
+Thumbs.db
+
+# Backend Build & Runtime
+backend/target/
+backend/.mvn/
+backend/*.log
+backend/uploads/
+*.class
+
+# Frontend Dependencies & Output
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+frontend/*.log
+frontend/.env.local
+frontend/.env.*.local
+
+# IDE & Editor files
+.idea/
+.vscode/
+*.iml
+*.iws
+*.ipr
